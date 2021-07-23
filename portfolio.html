@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]> <html class="oldie" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="format-detection" content="telephone=no">
+	<title>Eugen Daniel Wettstein</title>
+<!-- add fancybox.css -->
+	<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/all.css" />
+	<link rel="stylesheet" href="css/screen.css" />
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div id="wrapper" class="portfolio">
+		<div class="wrapper-holder">
+			<header id="header">
+				<a class="menu_trigger" href="#">menu</a>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="myskills.html">My skills</a></li>
+							<li><a class="active" href="portfolio.html">Portfolio</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+			</header>
+		</div>
+		<div class="wrapper-holder grey">
+			<section id="main">
+				<h2>The works and projects I have done</h2>
+				<ul id="filters" class="sub_nav">
+					<li class="active" data-filter="*">All</li>
+					<li data-filter=".r">R</li>
+					<li data-filter=".spark">Spark</li>
+					<li data-filter=".ml">Machine Learning</li>
+					<li data-filter=".bi">Data Visualisation</li>
+					<li data-filter=".sna">Social Network Analysis</li>
+					<li data-filter=".rec">Rec. Engines</li>
+					<li data-filter=".ts">Time Series</li>
+				</ul>
+				<ul id="container" class="item-list">
+					<li class="item bi" >
+						<div class="image ">
+							<img src="images/hate.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_1">
+									<div class="item-content">
+										<h4>Hate Crime Statistics USA 1991-2019</h4>
+										<p>Some hate crimes in the USA from all the states and with data from 1991-2019.</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item spark">
+						<div class="image">
+							<img src="images/chicago.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_3">
+									<div class="item-content">
+										<h4>Chicago streaming</h4>
+										<p>Warning system for people recently moved to Chicago. </p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item spark">
+						<div class="image">
+							<img src="images/lyft_uber.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_4">
+									<div class="item-content">
+										<h4>Lyft & Uber</h4>
+										<p>Analysis of the rides provided by Lyft & Uber in the USA</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item ml">
+						<div class="image">
+							<img src="images/fraud.jpg"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_5">
+									<div class="item-content">
+										<h4>Fraud Analysis</h4>
+										<p>Training a model to detect potential fraud</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item ml">
+						<div class="image">
+							<img src="images/nlp.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_6">
+									<div class="item-content">
+										<h4>Text Summarizer</h4>
+										<p>A summarizer of text with the transformer model</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item ml">
+						<div class="image">
+							<img src="images/bacteria.jpg"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_7">
+									<div class="item-content">
+										<h4>C-Elegans</h4>
+										<p>Detection of bacteria that can be alive or dead with computer vision</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item r" >
+						<div class="image ">
+							<img src="images/spain2.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_8">
+									<div class="item-content">
+										<h4>Clustering Spain</h4>
+										<p>Definition of 7 clusters to improve the quality of life in the Spanish territory</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item ts" >
+						<div class="image ">
+							<img src="images/cocacola.jpg"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_9">
+									<div class="item-content">
+										<h4>Coca Cola</h4>
+										<p>Quarterly earnings per share of Coca-Cola Company from the first quarter of 1983 to the third quarter of 2009 </p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item ml" >
+						<div class="image ">
+							<img src="images/madrid.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_10">
+									<div class="item-content">
+										<h4>Madrid Rentals</h4>
+										<p>Comparing of prices in different areas of Madrid </p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item sna" >
+						<div class="image ">
+							<img src="images/spotify.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_11">
+									<div class="item-content">
+										<h4>SNA Spotify</h4>
+										<p>Comparing  diffrerent genres and their connections between each other </p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item ml" >
+						<div class="image ">
+							<img src="images/bike.jpg"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_12">
+									<div class="item-content">
+										<h4>Hourly bike prediction</h4>
+										<p>Hourly prediction of bike usage in Washington D.C. </p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item rec" >
+						<div class="image ">
+							<img src="images/movie.jpg"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_13">
+									<div class="item-content">
+										<h4>Movie recommender</h4>
+										<p>Recommender system with a collaborative recommender engine </p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item sna" >
+						<div class="image ">
+							<img src="images/twitter.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_14">
+									<div class="item-content">
+										<h4>Network analysis</h4>
+										<p>Analysis of twitter data </p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item spark" >
+						<div class="image ">
+							<img src="images/food.jpg"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_15">
+									<div class="item-content">
+										<h4>Food Additives</h4>
+										<p>Analysis of food data of an spanisch online store for the spanisch market</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="item ml" >
+						<div class="image ">
+							<img src="images/safety1.jpg"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_16">
+									<div class="item-content">
+										<h4>Constructor safety</h4>
+										<p>Together with YOLO5 and Body pose constructors were analysed </p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<footer id="footer">
+			<div class="footer-content">
+				<ul class="social">
+					<li class="email"><a href="mailto:eu_wettstein@hotmail.com"></a></li>
+					<li class="linkedin"><a href="https://www.linkedin.com/in/eugen-wettstein/">Linkedin</a></li>
+				</ul>
+			</div>
+		</footer>	
+	</div>
+	<div style="display:none;">
+		<div id="portfolio_1" class="popup_portfolio">
+			<iframe width="1080" height="900" src="https://datastudio.google.com/embed/reporting/b1715123-5d70-4381-ac43-8948a2510cda/page/tbS3B" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<h3>Hate Crime Statistics USA 1991-2019</h3>
+			<time datetime="2020-09-01">Made: 01/14/21</time>
+			<p>Above you can see an implementation of different states and their hate crime statistics.</p>
+		</div>
+		<div id="portfolio_2" class="popup_portfolio">
+			<embed src="pdf/Solar.html" type="application/pdf" width="100%" height="200%" style="min-height:70vh;width:100%">
+			<h3>AMS 2013-2014 Solar Energy Prediction Contest</h3>
+			<time datetime="2020-06-01">Made: 01/06/20</time>
+			<p>The following report showcases the energy output predictions for 98 power stations in the US. Results of the best validated model were uploaded to the <a style = " white-space:nowrap; " href="https://www.kaggle.com/c/ams-2014-solar-energy-prediction-contest">Kaggle competition</a> reaching an MAE of 2.6 million for SVM model. the code for it can be found <a style = " white-space:nowrap; " href="https://github.com/EugenDaniel/EugenDaniel.github.io/tree/main/Solar%20stations">here.</a></p>
+		</div>
+		<div id="portfolio_3" class="popup_portfolio">
+			<embed src="pdf/ChicagoCrime.pdf" type="application/pdf" width="100%" height="200%" style="min-height:70vh;width:100%">
+			<h3>Chicago streaming</h3>
+			<time datetime="2020-10-12">Made: 10/12/20</time>
+			<p>We created an use case where we simulated a stream from the chicago police to warn people that recently moved to chicago about crimes happening on their way to her destination. Also the code for it can be found <a style = " white-space:nowrap; " href="https://github.com/EugenDaniel/EugenDaniel.github.io/tree/main/Chicago%20crime">here.</a> </p>
+		</div>
+		<div id="portfolio_4" class="popup_portfolio">
+			<img src="images/driver.jpg"  alt="" />
+			<h3>Passenger Analysis for Uber and Lyft</h3>
+			<time datetime="2020-10-01">Made: 01/10/20</time>
+			<p>Uber being market leader in the USA in terms of passengers transported gives them a strong position. Since they have a first mover advantage one could think that the competition can come short but surprisingly Lyft is taking a big marketshare aswell. With spark the data was analysed. The data can be found on <b><a style = " white-space:nowrap; " href="https://www.kaggle.com/brllrb/uber-and-lyft-dataset-boston-ma">Kaggle</a></b> and the code in my <a style = " white-space:nowrap; " href="https://github.com/EugenDaniel/EugenDaniel.github.io/blob/main/LyftUber/Lyft_Uber_Analysis.ipynb">Github.</a></p>
+		</div>
+		<div id="portfolio_5" class="popup_portfolio">
+			<img src="images/fraud.jpg"  alt="" />
+			<h3>Fraud Analysis</h3>
+			<time datetime="2021-02-15">Made: 15/02/21</time>
+			<p>We recived some data that we first had to clean accordingly and then run models to detect potential fraud. The result was uploaded to a server where it was tested with unknown data and the result was almost a 7 out of 10. The process for it can be found <a style = " white-space:nowrap; " href="https://github.com/EugenDaniel/EugenDaniel.github.io/blob/main/Fraud%20Analysis/jupyter_python_modeldevchallenge_6_994.ipynb">here.</a></p>
+		</div>
+		<div id="portfolio_6" class="popup_portfolio">
+			<img src="images/summary.jpg"  alt="" />
+			<h3>NLP Summarizer</h3>
+			<time datetime="2021-01-01">Made: 01/01/21</time>
+			<p>We used a transformer model on which we did transfer learning on specific text that we had. Unfortunately the model was to big to upload but here the <a style = " white-space:nowrap; " href="https://github.com/EugenDaniel/EugenDaniel.github.io/blob/main/Text%20summarizer/Demo_NLP.ipynb">jupyter notebook.</a></p></p>
+		</div>
+		<div id="portfolio_7" class="popup_portfolio">
+			<img src="images/bacteria2.jpg"  alt="" />
+			<h3>C-Elegans</h3>
+			<time datetime="2014-06-20">Made: 10/01/21</time>
+			<p>I created a subfolder for training and test data and used computer vision packages to detect if the bacteria was alive or dead. The highest score reached was 80.95% and the code can be found <a style = " white-space:nowrap; " href="https://github.com/EugenDaniel/EugenDaniel.github.io/blob/main/Bacteria%20CV.ipynb">here</a></p>
+		</div>
+		<div id="portfolio_8" class="popup_portfolio">
+			<embed src="pdf/SegmentationSpain.pdf" type="application/pdf" width="100%" height="200%" style="min-height:70vh;width:100%">
+			<h3>Clustering Spain provinces</h3>
+			<time datetime="2020-06-10">Made: 10/06/20</time>
+			<p>K-means algorithm definition to cluster the Spanish territory. The main aim of the analysis is to provide recommendations with regard to tax reforms and economic stimuli to improve the quality of life in the different areas of Spain. The code can de found <a style = " white-space:nowrap; " href="https://github.com/EugenDaniel/EugenDaniel.github.io/tree/main/Segmentation%20spanish%20provinces">here</a></p></p>
+		</div>
+		<div id="portfolio_10" class="popup_portfolio">
+			<img src="images/madrid2.jpg"  alt="" />
+			<h3>Madrid rentals</h3>
+			<time datetime="2020-05-12">Made: 12/05/20</time>
+			<p>Based on data that we recived we compared the prices together with their features. For further information take a look into <a style = " white-space:nowrap; " href="https://github.com/EugenDaniel/EugenDaniel.github.io/tree/main/Regression%20Madrid%20Real%20Estate">the code.</a></p>
+		</div>
+		<div id="portfolio_9" class="popup_portfolio">
+			<embed src="pdf/CocaCola.pdf" type="application/pdf" width="100%" height="200%" style="min-height:70vh;width:100%">
+			<h3>Coca-Cola quarterly earning per share prediction</h3>
+			<time datetime="2020-11-01">Made: 01/11/20</time>
+			<p>The following project serves as a model to forecast time series data of the Coca-Cola company. The Box-Jenkins methodology was utilized, for the quarterly earnings per share from the first quarter of 1983 to the third quarter of 2009. Four potential models are shown as robust choices, where different performances can be observed for short and long-term predictions (horizons). See the code in <a style = " white-space:nowrap; " href="https://github.com/EugenDaniel/EugenDaniel.github.io/tree/main/Earnings%20Coca%20Cola%20shares">github.</a></p>
+		</div>
+		<div id="portfolio_11" class="popup_portfolio">
+			<embed src="pdf/Spotify.pdf" type="application/pdf" width="100%" height="200%" style="min-height:70vh;width:100%">
+			<h3>SNA Spotify</h3>
+			<time datetime="2021-01-16">Made: 16/01/21</time>
+			<p>We created a API connection to spotify and analysed the data from tropical house to pop to bachata and few more. Based on this we looked at the centrality of the members and the connections to other genres. The code for it can be found <a style = " white-space:nowrap; " href="https://github.com/EugenDaniel/EugenDaniel.github.io/blob/main/Spotify%20Genre%20Analysis/Spotify_Datasets.ipynb">here.</a></p>
+		</div>
+		<div id="portfolio_12" class="popup_portfolio">
+			<embed src="pdf/Bike.pdf" type="application/pdf" width="100%" height="200%" style="min-height:70vh;width:100%">
+			<h3>Hourly bike prediction</h3>
+			<time datetime="2021-11-04">Made: 04/11/20</time>
+			<p>With the data provided we had to estimate the hourly usage of rental bikes in Washington D.C. . The code for it can be found <a style = " white-space:nowrap; " href="https://github.com/EugenDaniel/EugenDaniel.github.io/blob/main/Prediction%20of%20hourly%20bike%20usage%20Washingthon/BikeSharingWashington.ipynb">here.</a></p>
+		</div>
+		<div id="portfolio_13" class="popup_portfolio">
+			<img src="images/movie2.jpg"  alt="" />
+			<h3>Movie recommender</h3>
+			<time datetime="2021-10-16">Made: 16/10/20</time>
+			<p>Based on the interests and similarity to others, movies were recommended to user. The code for it can be found <a style = " white-space:nowrap; " href="https://github.com/EugenDaniel/EugenDaniel.github.io/blob/main/Recommender%20system/Movie_Recommender.ipynb">here.</a></p>
+		</div>
+		<div id="portfolio_14" class="popup_portfolio">
+			<embed src="pdf/Twitter.pdf" type="application/pdf" width="100%" height="200%" style="min-height:70vh;width:100%">
+			<h3>Network analysis</h3>
+			<time datetime="2021-10-16">Made: 16/10/20</time>
+			<p>The data provided was from Twitter and was of a size of 25GB. Since the data was too big to compute on a normal computer, I processed the first 10M rows here on <a style = " white-space:nowrap; " href="https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/2476438503552114/347681755892378/5264107192413392/latest.html">databricks.</a> Also the rest of the code can be found <a style = " white-space:nowrap; " href="https://github.com/EugenDaniel/EugenDaniel.github.io/tree/main/Twitter">on  Github.</a> </p>
+		</div>
+		<div id="portfolio_15" class="popup_portfolio">
+			<embed src="pdf/Food.pdf" type="application/pdf" width="100%" height="200%" style="min-height:70vh;width:100%">
+			<h3>Network analysis</h3>
+			<time datetime="2021-10-21">Made: 21/10/20</time>
+			<p>From a spanish online store for food we had to analyse how dangerous certain additives were in the products.The code can be found <a style = " white-space:nowrap; " href="https://github.com/EugenDaniel/EugenDaniel.github.io/blob/main/Food%20additives%20analysis/Food_Additives.ipynb">on Github.</a> </p>
+		</div>
+		<div id="portfolio_16" class="popup_portfolio">
+			<img src="images/safety.jpg"  alt="" />
+			<h3>Constructor safety</h3>
+			<time datetime="2021-10-21">Made: 21/10/20</time>
+			<p>By using YOLO5 together with Roboflow and transfer learning the model was trained to detect if a worker had a helmet, a vest or both on. The code can be found <a style = " white-space:nowrap; " href="https://github.com/EugenDaniel/EugenDaniel.github.io/blob/main/Construction%20safety/CV_PPE_YoloV5.ipynb">on Github.</a> </p>
+
+		</div>
+		
+	</div>
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/cells-by-row.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
