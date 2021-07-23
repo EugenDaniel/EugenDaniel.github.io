@@ -1,0 +1,63 @@
+---
+title: "Deloitte"
+author: "Eugen Wettstein"
+date: "5/5/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r cars}
+#Installing of the packages
+library(tidyverse)
+library(dplyr)
+library(igraph)
+```
+
+```{r}
+# Reading and setting file
+dir <- dirname(rstudioapi::getActiveDocumentContext()$path)
+setwd(dir)
+twitter <- read.csv(file = "twitter_10M.csv")
+twitter$X <- NULL
+twitter.index <- twitter$UserID
+g <- graph.data.frame(twitter)
+```
+
+```{r}
+# Checking number of vertices
+gorder(g)
+```
+
+
+```{r}
+# Finding the most followed accounts
+indegree <- as.data.frame(degree(g, mode="in"))
+colnames(indegree) <- 'Degree'
+indegree %>% arrange(desc(Degree))
+```
+
+```{r}
+# Finding the account that follows most accounts
+outdegree <- as.data.frame(degree(g, mode="out"))
+colnames(outdegree) <- 'Degree'
+outdegree %>% arrange(desc(Degree))
+```
+
+
+```{r}
+# Trying of getting shortest paths from the node 20
+get.shortest.paths(g, 20, mode = "out")
+average.path.length(g)
+```
+
+
+
+```{r}
+# Checking the density of the graph to define if dense or sparse
+edge_density(g, loops = FALSE)
+```
+
