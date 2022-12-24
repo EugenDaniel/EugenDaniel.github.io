@@ -335,11 +335,11 @@ h2.slogan{
 .progress li span.SQL{width: 100%;}
 .progress li span.pyspark{width: 90%;}
 .progress li span.NoSQL{width: 70%;}
-.progress li span.GoogleCloud{width: 50%;}
+.progress li span.GoogleCloud{width: 100%;}
 .progress li span.office{width: 100%;}
 .progress li span.scala{width: 80%;}
 .progress li span.Databricks{width: 100%;}
-.progress li span.powerbi{width: 70%;}
+.progress li span.powerbi{width: 100%;}
 .progress li span.java{width: 70%;}
 .progress li span.react{width: 80%;}
 .progress li span.azure{width: 100%;}
